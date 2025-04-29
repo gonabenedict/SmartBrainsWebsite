@@ -1,7 +1,19 @@
 body{
     background-color: #fffbf3;
     margin: 0;
-    font-family: 'Times New Roman', Times, serif;
+}
+.header-left {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1em;
+
+    a {
+        text-decoration:  none;
+        color:black;
+        font-size:  1.2rem;
+
+    }
 }
 
 .wrap{
@@ -11,6 +23,7 @@ body{
 header{
     display: flex;
     justify-content: space-between;
+    font-family: 'Roboto Mono', Times, serif
 }
 nav ul 
 {
