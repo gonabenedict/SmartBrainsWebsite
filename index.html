@@ -7,19 +7,20 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
+    <div class="wrap">
+      <header>
         <div class="header-left">
             <a href="index.html">
                 SmartBrains
             </a>
         </div>
         <nav>
-            <a href="/" class="menu-open hide desktop">
+            <a href="/" class="menu-open hide-desktop">
                 <img src="menu.svg" alt="menu icon">
             </a>
             <ul>
-                <li class="hide desktop">
-                    <a href="/" class="menu close">
+                <li class="hide-desktop">
+                    <a href="/" class="menu-close">
                         <img src="close.svg" alt="close icon">
                     </a>
 
@@ -32,6 +33,22 @@
 
         </nav>
         
-    </header>
+      </header>
+    </div>
+    <script>
+
+        const menu = document.querySelector('nav ul');
+        const menuBtn = document.querySelector('.menu-open');
+        const closeBtn = document.querySelector('.menu-close');
+
+        menuBtn.addEventListener('click', () => {
+            menu.classList.add('open')
+        })
+
+        closeBtn.addEventListener('click', () => {
+            menu.classList.remove('open')
+        })
+
+    </script>
 </body>
 </html>
