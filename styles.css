@@ -34,12 +34,14 @@ header{
     background-position: center;
     background-color: rgba(0, 0, 0, 0.5); /* Add a dark color */
     background-blend-mode: darken; /* Blend the color with the image */
-    animation: change 10s infinite ease-in-out;
+    animation: change 20s infinite ease;
 }
 
 @keyframes change {
     0% { background-image: url("website\ image\ draft2.jpg"); }
-    100% { background-image: url("image\ 2-hd.jpg"); }
+    25%{ background-image: url("image\ 2-hd.jpg"); }
+    75% { background-image: url("website\ image\ draft.jpg"); }
+    100% { background-image: url("website\ image\ draft2.jpg"); }
 }
 
 
@@ -122,7 +124,7 @@ nav ul
 @media (min-width: 1200px) {
 
     .wrap{
-        margin: 0 auto;
+        margin: 0;
         padding: 0 2em;
         max-width: 1200px;
     }
