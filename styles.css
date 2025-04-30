@@ -26,11 +26,14 @@ header{
 
 .wrap {
     margin: 0;
-    font-family: 'Winky Rough', Times, serif;
+    justify-content: space-between;
+    font-family: 'Roboto Mono', Times, serif;
     background-image: url("image 2-hd.jpg");
     background-size: cover;
     height: 100vh;
     background-position: center;
+    background-color: rgba(0, 0, 0, 0.5); /* Add a dark color */
+    background-blend-mode: darken; /* Blend the color with the image */
 }
 
 
