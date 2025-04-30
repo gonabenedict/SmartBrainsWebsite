@@ -28,12 +28,18 @@ header{
     margin: 0;
     justify-content: space-between;
     font-family: 'Winky Rough', Times, serif;
-    background-image: url("image 2-hd.jpg");
+    background-image: url("website\ image\ draft.jpg");
     background-size: cover;
     height: 100vh;
     background-position: center;
     background-color: rgba(0, 0, 0, 0.5); /* Add a dark color */
     background-blend-mode: darken; /* Blend the color with the image */
+    animation: change 10s infinite ease-in-out;
+}
+
+@keyframes change {
+    0% { background-image: url("website\ image\ draft2.jpg"); }
+    100% { background-image: url("image\ 2-hd.jpg"); }
 }
 
 
