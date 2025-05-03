@@ -131,9 +131,11 @@ nav ul
     
 }
 h1{
-    font-size: 2em;
+    font-size: 2rem;
     color: rgb(5, 3, 3);
     text-align: center;
     margin-top: 5%;
     margin-bottom: 10%;
+    font-family: 'Raleway';
+    font-weight: 500;
 }
