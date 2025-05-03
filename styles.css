@@ -130,3 +130,10 @@ nav ul
     }
     
 }
+h1{
+    font-size: 2em;
+    color: rgb(5, 3, 3);
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
