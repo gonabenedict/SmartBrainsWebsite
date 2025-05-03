@@ -138,4 +138,25 @@ h1{
     margin-bottom: 10%;
     font-family: 'Raleway';
     font-weight: 500;
+    position: relative; /* Required for the ::after pseudo-element */
+}
+
+h1::after {
+    content: ""; /* Creates the underline */
+    position: absolute;
+    bottom: -50px; /* Adjusts the distance below the text */
+    left: 50%; /* Centers the underline */
+    transform: translateX(-50%); /* Centers the underline */
+    width: 30%; /* Adjusts the length of the underline (e.g., 50% of the text width) */
+    height: 2px; /* Adjusts the thickness of the underline */
+    background-color: #696866; /* Sets the color of the underline */
+}
+
+p {
+    font-size: 1rem; /* Adjust the font size */
+    line-height: 1.6; /* Adjust the line height for better readability */
+    color: rgb(12, 8, 8); /* Set a neutral color */
+    margin-top: 1em; /* Add spacing above the paragraph */
+    margin-bottom: 1em; /* Add spacing below the paragraph */
+    text-align: justify; /* Align the text for a clean look */
 }
