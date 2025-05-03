@@ -209,12 +209,35 @@ h2::after {
     background-color: rgb(198, 193, 193);
 }
 
-.vision{
-     text-align: center;
-     background-image: url(gate2.jpg);
-     height: 100vh;
-     background-size: cover;
-     background-position: center;
-     background-color: rgba(0, 0, 0, 0.8); /* Add a dark color */
-     background-blend-mode: darken; /* Blend the dark color with the image */
+.vision {
+    text-align: center;
+    background-image: url(gate2.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.8); /* Add a dark color */
+    background-blend-mode: darken; /* Blend the dark color with the image */
+    display: flex; /* Enable Flexbox */
+    flex-direction: column; /* Stack elements vertically */
+    justify-content: center; /* Center elements vertically */
+    align-items: center; /* Center elements horizontally */
+}
+
+.vision h3 {
+    font-size: 2rem;
+    color: white;
+    margin-bottom: 1rem; /* Add spacing below the heading */
+    font-family: 'pacifico', sans-serif;
+    font-style: italic;
+    font-weight: 100;
+}
+
+.vision p1 {
+    font-size: 2rem;
+    color: white;
+    font-family: 'Pacifico', sans-serif;
+    text-align: center;
+    max-width: 600px;
+    font-style: italic;
+    font-weight: 100;
 }
