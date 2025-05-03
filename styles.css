@@ -162,3 +162,49 @@ p {
     padding: 0 1em; 
 
     font-family: 'Lato';}
+
+.container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; /* Allows child elements to wrap if needed */
+    align-items: flex-start; /* Prevents height constraints */
+    min-height: 400px;
+    margin-top: 10em;
+    background-color:rgb(50, 48, 48) ;
+
+}    
+
+.container div
+{
+    background-color: white;
+    padding: 0;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 400px;   
+    height: 500px;
+    margin: 60px; /* Center the container */
+}
+
+h2{
+    font-size: 2rem;
+    color: black;
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    font-family: 'Raleway';
+    font-weight: 500;
+    position: relative; /* Required for the ::after pseudo-element */
+}
+
+h2::after {
+    content: ""; 
+    position: absolute;
+    bottom: -40px; 
+    left: 50%; 
+    transform: translateX(-50%); 
+    width: 30%;
+    height: 2px;
+    background-color: rgb(198, 193, 193);
+}
