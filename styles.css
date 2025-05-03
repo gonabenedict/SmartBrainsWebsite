@@ -208,3 +208,13 @@ h2::after {
     height: 2px;
     background-color: rgb(198, 193, 193);
 }
+
+.vision{
+     text-align: center;
+     background-image: url(gate2.jpg);
+     height: 100vh;
+     background-size: cover;
+     background-position: center;
+     background-color: rgba(0, 0, 0, 0.8); /* Add a dark color */
+     background-blend-mode: darken; /* Blend the dark color with the image */
+}
