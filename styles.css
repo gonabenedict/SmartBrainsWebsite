@@ -241,3 +241,21 @@ h2::after {
     font-style: italic;
     font-weight: 100;
 }
+.chamwada{
+    background-color: rgb(50, 48, 48) ;
+}
+
+h4, p2 {
+    text-align: center;
+
+}
+
+h4 {
+    margin-top: 3em;
+
+}
+
+p2 {
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
