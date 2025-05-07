@@ -288,6 +288,7 @@ p2 {
     flex-direction: column  ;
     justify-content: center;
     align-items: center;
+    font-family: "Roboto", sans-serif;
 
 }
 .footer__links{
@@ -308,14 +309,13 @@ p2 {
 }
 .footer__link--items h5 {
     margin-bottom: 16px;
+    font-size: large;
+    color: brown;
 }
 .footer__link--items a {
     color:black;
     text-decoration: none;
     margin-bottom: 0.5rem;
-}
-.footer__link--items > h2{
-    color: black;
 }
 .footer__link--items a:hover{
     color: red;
@@ -323,7 +323,7 @@ p2 {
 }
 .social__icons--links{
     color: black    ;
-    font-size: 24px;
+    font-size: 32px;
 }
 .social__icons--links:hover {
     color: red; /* Change color on hover */
