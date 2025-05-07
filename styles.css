@@ -176,6 +176,24 @@ p {
 
 }    
 
+.aa:hover
+{
+    transform: scale(1.075);
+    transition: 0.2s ease-in;
+    cursor: pointer;
+}
+.bb:hover
+{
+    transform: scale(1.075);
+    transition: 0.2s ease-in;
+    cursor: pointer;
+}
+.cc :hover
+{
+    transform: scale(1.075);
+    transition: 0.2s ease-in;
+    cursor: pointer;
+}
 .container div
 {
     background-color: white;
