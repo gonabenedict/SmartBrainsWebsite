@@ -261,25 +261,30 @@ h2::after {
 }
 .chamwada{
     background-color: rgb(50, 48, 48) ;
+    padding: 0 2rem; /* Add padding to the container */
+    overflow: visible; /* Ensure content is not clipped */
 }
 
 h4, p2 {
     text-align: center;
     color: white;
+    font-family: "Roboto", sans-serif;
 
 }
 
 h4 {
     margin-top: 0;
+    font-size: 1.2rem;
 
 }
 
 p2 {
-    font-size: 1.2rem;
+    font-size: 1rem;
     line-height: 1.5;
     color: white;
     margin-left: 2rem;
     margin-right: 2rem;
+    margin: 0 3rem;
 }
 .footer__container{
     background-color: white;
