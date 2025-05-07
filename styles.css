@@ -247,6 +247,7 @@ h2::after {
 
 h4, p2 {
     text-align: center;
+    color: white;
 
 }
 
@@ -258,4 +259,7 @@ h4 {
 p2 {
     font-size: 1.2rem;
     line-height: 1.5;
+    color: white;
+    margin-left: 2rem;
+    margin-right: 2rem;
 }
